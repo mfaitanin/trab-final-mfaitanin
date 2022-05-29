@@ -258,8 +258,8 @@ boxplot(dados1$decimalLatitude)
 
 brau<- as.factor(dados1$scientificName)
 
-ddd
-
 
 ```
 
+smkaldmklsamkdlabvb
+vbvbv
