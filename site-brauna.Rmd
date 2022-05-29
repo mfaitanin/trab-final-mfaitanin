@@ -23,7 +23,7 @@ require(yaml)
 ```
 
 ###Com a função "occ_data" podemos realizar uma busca simplificada nos pontos de ocorrência da base de dados GBIF (Global Biodiversity Information Facility). Essa busca será realizadas através do nome ciêntífico e pelas ocorrências.
-###Selecionamos a Pseudopiptadenia contorta, uma espécie vegetal endêmica do Brasil pertencente a família fabaceae.
+###Selecionamos a Melanoxylon brauna, uma espécie vegetal endêmica do Brasil pertencente a família fabaceae.
 
 #O comando "?occ_data" é apenas para checar as funções da função "occ_data".
 #O comando "dim ( ) é para checar as dimensões do objeto pseudo_gbif, isto é, avaliar a quantidade de linhas e colunas.
@@ -107,7 +107,7 @@ cl <- brauna_gbif1 %>%
          capital = cc_cap(., value = "flagged"))
 ```
 
-#A Trigonopdendron spirictusantensis é uma espécies vegetal que ocorre nas florestas estacionais do Espirito Santo e Rio de Janeiro. Não foi encontrado nenhum ponto além desses estados.
+#A Melanoxylon brauna é uma espécies vegetal que ocorre nas florestas estacionais do Espirito Santo e Rio de Janeiro. Não foi encontrado nenhum ponto além desses estados.
 ```{r}
 # verificar coordenadas com flags
 
